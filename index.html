@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DrumKit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="menu">
+    <div class="sandwich">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+    </div>
+    <div class="keysInfo">
+      <div class="">Press "key" to drum:</div>
+      <div class="keyWrap"><span data-k="k" class="key">"k" </span> for kick</div>
+      <div class="keyWrap"><span data-k="s" class="key">"s" </span> for snare</div>
+      <div class="keyWrap"><span data-k="h" class="key">"h" </span> for hi-hat</div>
+      <div class="keyWrap"><span data-k="c" class="key">"c" </span> for crash</div>
+      <div class="keyWrap"><span data-k="v" class="key">"v" </span> for small tom</div>
+      <div class="keyWrap"><span data-k="b" class="key">"b" </span> for middle tom</div>
+      <div class="keyWrap"><span data-k="n" class="key">"n" </span> for floor tom</div>
+      <div class="keyWrap"><span data-k="r" class="key">"r" </span> for ride</div>
+    </div>
+  </div>
+  <div class="drums">
+    <div data-d="k" class="kick"><div class="bandName">The <br>Spaceship <br>And <br>The <br>Cows</div></div>
+    <div data-d="s" class="snare"></div>
+    <div data-d="h" class="hi-hat"></div>
+    <div data-d="c" class="crash"></div>
+    <div data-d="v" class="tom1"></div>
+    <div data-d="b" class="tom2"></div>
+    <div data-d="n" class="tom3"></div>
+    <div data-d="r" class="ride"></div>
+  </div>
+
+  <div class="modal">
+    <div class="daveGrohl"></div>
+    <div class="hisSpeech">
+      <div class="speech">Come on, dude! <br>You can do that!</div>
+    </div>
+  </div>
+
+  <div class="modal1Wrap">
+    <div class="modal1">
+      <div class="text">Hello, mate! This is an important message for you! Of course you can spend your whole spare time trying to beat the shit out of these drums, but... <br>Honestly, you will never become rock star 'till you hanging around here all alone. Go outside the box! Go searching bandmates! In clubs, street, bars, school, college, instagram, facebook, whatwever... <br>Go on start collective projects, failinng and starting again 'till you reach you dream! <br>Get lessons, hanging with bandmates, cooperate with each other, sharing ideas with each other! Man is a social animal. remember that! Stop pretending like you are unbelievable genius and no one can understand you! You are not alone! There are many people around you who share the same ideals, music, movies and etc. Never stop searching and sharing your ideas with people! <br> Your friend.</div>
+      <div class="modal1Links">
+        <a href="https://vk.com/samara_music">That's right, I am gonna find new firends!</a>
+        <a href="#" id="wrongAnswer">No, thanx. I am too smart and cool for anybody on this ugly planet.</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="importantMessage">
+      <div class="text">click here when you got bored of drumming</div>
+      <img src="i/arrowTo.svg" alt="arrow to">
+      <div class="important"></div>
+    </div>
+  </div>
+
+  <audio data-a="k" src="drums/kick.mp3"></audio>
+  <audio data-a="s" src="drums/snare.mp3"></audio>
+  <audio data-a="h" src="drums/hi-hat.mp3"></audio>
+  <audio data-a="v" src="drums/tom1.mp3"></audio>
+  <audio data-a="b" src="drums/tom2.mp3"></audio>
+  <audio data-a="n" src="drums/tom3.mp3"></audio>
+  <audio data-a="c" src="drums/crash.mp3"></audio>
+  <audio data-a="r" src="drums/ride.mp3"></audio>
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>
